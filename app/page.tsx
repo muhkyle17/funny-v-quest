@@ -17,7 +17,7 @@ export default function Home() {
     <main className='flex min-h-screen items-center justify-center bg-pink-200'>
       <div className='h-160 w-250 rounded-2xl p-24 bg-white'>
         <div className='flex flex-col items-center justify-center gap-16'>
-          <Image src='/graphicssc-bear-2316805_1280.png' alt='Panda' width={150} height={150} />
+          <Image src='/graphicssc-bear-2316805_1280.png' alt='Panda' width={200} height={200} />
           <div className='flex flex-col gap-14'>
             <h1 className='text-4xl font-bold'>Cielo, will you be my valentine?</h1>
             <div className='flex flex-row gap-10 items-center justify-center'>
