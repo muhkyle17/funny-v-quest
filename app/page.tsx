@@ -19,9 +19,9 @@ export default function Home() {
         <div className='flex flex-col items-center justify-center gap-16'>
           <Image src='/graphicssc-bear-2316805_1280.png' alt='Panda' width={150} height={150} />
           <div className='flex flex-col gap-14'>
-            <h1 className='text-4xl font-bold'>Hi Cielo, will you be my valentine?</h1>
+            <h1 className='text-4xl font-bold'>Cielo, will you be my valentine?</h1>
             <div className='flex flex-row gap-10 items-center justify-center'>
-              <button className='bg-gray-300 px-12 py-3 text-black rounded-3xl hover:bg-pink-300 hover:cursor-pointer'>
+              <button className='bg-gray-300 text-2xl px-14 py-6 text-black rounded-3xl hover:bg-pink-300 hover:cursor-pointer'>
                 Yes
               </button>
               <motion.button
