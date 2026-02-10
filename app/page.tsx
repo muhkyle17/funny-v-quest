@@ -1,8 +1,8 @@
 'use client'
-
 import Image from 'next/image'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 export default function Home() {
   const [position, setPosition] = useState({ x: 0, y: 0 })
@@ -21,9 +21,11 @@ export default function Home() {
           <div className='flex flex-col gap-14'>
             <h1 className='text-4xl font-bold'>Cielo, will you be my valentine?</h1>
             <div className='flex flex-row gap-10 items-center justify-center'>
-              <button className='bg-gray-300 text-2xl px-14 py-6 text-black rounded-3xl hover:bg-pink-300 hover:cursor-pointer'>
+              <Link
+                href='/confirmation'
+                className='bg-gray-300 text-2xl px-14 py-6 text-black rounded-3xl hover:bg-pink-300 hover:cursor-pointer'>
                 Yes
-              </button>
+              </Link>
               <motion.button
                 className='bg-gray-300 px-12 py-3 text-black rounded-3xl hover:bg-pink-300 hover:cursor-pointer'
                 animate={{ x: position.x, y: position.y }}
