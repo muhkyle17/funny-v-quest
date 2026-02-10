@@ -8,7 +8,7 @@ export default function Confirmation() {
 
   return (
     <main className='flex min-h-screen items-center justify-center bg-pink-200'>
-      <div className='flex min-w-250 flex-col items-center justify-center gap-8 rounded-2xl bg-white px-20 py-16'>
+      <div className='flex min-w-250 flex-col items-center justify-center gap-8 rounded-2xl bg-white px-20 py-10'>
         <Image src='/ralfdesign-cartoons-4587458_1920.png' alt='Panda' width={250} height={250} />
         <h1 className='text-6xl font-bold'>
           <motion.span
